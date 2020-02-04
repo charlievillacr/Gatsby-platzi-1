@@ -1,5 +1,5 @@
 import React from 'react'
-import SEO from '../components/seo'
+import { SEO } from '../components'
 import { Button, Purchase } from '../styles/components'
 import { Link } from 'gatsby'
 
@@ -12,7 +12,8 @@ export default function gracias() {
                     ¡Compra exitosa!
                 </h2>
                 <p>Esperamos que disfrutes tu compra</p>
-                <p>Te esperamos de devuelta.</p>
+                <p>Te esperamos de devuelta.<span role='img' aria-label='emoji'>🎁</span></p>
+                
                 <Link to='/'>
                     <Button style={{ margin: `1rem 1rem` }}>Volver al Catálogo</Button>
                 </Link>

@@ -18,6 +18,8 @@ export const StyledHeader = styled.header`
   );
   margin-bottom: 0;
   padding: 0 0.5rem 0 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: Bold;
   height: 3.5rem;
   width: 100%;
   max-width: 960;
@@ -122,14 +124,13 @@ export const StyledJumbo = styled.div`
     background-color: ${colors.darkBlue};
     z-index: -1;
     position: absolute;
-    transform: rotate(-19deg);
-    border-radius: 35%;
+
     top: -25%;
     width: 120%;
     height: 15rem;
     ${above.medium`
-      height: 20rem;
-      top: -50%;
+      height: 70rem;
+      top: -80%;
     `}
     ${above.mediumL`
       height: 30rem;
@@ -307,8 +308,9 @@ export const StyledCart = styled.div`
 export const MenuItem = styled.li`
   margin: 0;
   color: white;
+  font-family: 'Roboto';
   font-size: 1.3rem;
-  font-weight: 100;
+  font-weight: 900;
   padding: ${({ margin }) => (margin ? "0 13px 0 13px" : "0 0 0 13px")};
   a {
     color: white;
@@ -332,6 +334,7 @@ export const Footer = styled.footer`
   background-color: ${colors.orange};
   color: white;
   display: flex;
+  font-family: 'Roboto', sans-serif;
   justify-content: center;
   align-items: center;
   padding: 2rem;

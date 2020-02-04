@@ -18,9 +18,9 @@ const Header = ({ siteTitle }) => (
           <Link to='/'>Productos</Link>
         </MenuItem>
         <MenuItem margin>
-          <Link to='/cart'>
+          <Link to='/'>
           <span><img src={LogoCarrito} alt='cartlogo' /></span>
-          Carrito de Compras</Link>
+          Carro de Compras</Link>
         </MenuItem>
         <MenuItem margin>
           <a href='https://www.facebook.com/chardanboutique/'><span><img src={LogoFace} alt='fblogo'/></span>Facebook</a>
