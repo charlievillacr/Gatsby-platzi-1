@@ -3,9 +3,9 @@ import { above } from "./index"
 
 export const colors = {
   green: "#98ca3f",
-  orange: "#f8b71c",
+  orange: "#c7af8a",
   gray: "#969696",
-  darkBlue: "#1c3643",
+  darkBlue: "#28a994",
   lightBlue: "#1e5372",
   softGray: "#f6f8f9",
 }
@@ -13,8 +13,8 @@ export const colors = {
 export const StyledHeader = styled.header`
   background-image: linear-gradient(
     90deg,
-    ${colors.darkBlue},
-    ${colors.lightBlue}
+    ${colors.orange},
+    ${colors.orange}
   );
   margin-bottom: 0;
   padding: 0 0.5rem 0 0;
@@ -32,9 +32,9 @@ export const StyledHeader = styled.header`
   }
   & > a > img {
     margin: 0;
-    background-color: ${colors.green};
+    background-color: ${colors.orange};
     height: 100%;
-    padding: 0.5rem 0.8rem;
+    // padding: 0.5rem 0.8rem;
   }
   & ul {
     list-style: none;
@@ -329,7 +329,7 @@ export const MenuItem = styled.li`
 `
 
 export const Footer = styled.footer`
-  background-color: ${colors.darkBlue};
+  background-color: ${colors.orange};
   color: white;
   display: flex;
   justify-content: center;

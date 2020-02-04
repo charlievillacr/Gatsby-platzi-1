@@ -14,7 +14,7 @@ export default function gracias() {
                 <p>Esperamos que disfrutes tu compra</p>
                 <p>Te esperamos de devuelta.</p>
                 <Link to='/'>
-                    <Button>Volver al Catálogo</Button>
+                    <Button style={{ margin: `1rem 1rem` }}>Volver al Catálogo</Button>
                 </Link>
             </Purchase>
         </div>
