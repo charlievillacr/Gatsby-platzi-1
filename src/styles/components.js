@@ -127,18 +127,22 @@ export const StyledJumbo = styled.div`
 
     top: -25%;
     width: 120%;
-    height: 15rem;
+    height: 60rem;
+    ${above.small`
+      height: 100rem;
+      top: -80%;
+    `}
     ${above.medium`
-      height: 70rem;
+      height: 100rem;
       top: -80%;
     `}
     ${above.mediumL`
-      height: 30rem;
+      height: 90rem;
       top: -60%;
     `}
     ${above.large`
-      width: 110vw;
-      height: 52vw;
+      width: 200vw;
+      height: 80vw;
       top: -66%;
     `}
   };
